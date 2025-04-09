@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>David Mirga | KI-Consultant für nachhaltige digitale Transformation in Österreich</title>
+    <meta name="title" content="David Mirga | KI-Consultant für nachhaltige digitale Transformation in Österreich">
+    <meta name="description" content="David Mirga hilft Unternehmen & Menschen, KI mit Klarheit & Sicherheit zu nutzen – und keine Angst mehr zu haben, von KI ersetzt zu werden. Experte für künstliche Intelligenz, AI Act und digitale Prozessoptimierung.">
+    <meta name="keywords" content="KI-Consultant, Künstliche Intelligenz, David Mirga, digitale Transformation, AI Act, KI-Beratung, Österreich, Wien, KI-Schulung, Prozessoptimierung">
+    <meta name="author" content="David Mirga">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.brandadwork.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.brandadwork.com/">
+    <meta property="og:title" content="David Mirga | KI-Consultant für nachhaltige digitale Transformation">
+    <meta property="og:description" content="Experte für Künstliche Intelligenz, Prozessoptimierung und AI Act Compliance. Helfe Unternehmen, KI strategisch einzusetzen und bis zu 43% Arbeitszeit zurückzugewinnen.">
+    <meta property="og:image" content="https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.brandadwork.com/">
+    <meta property="twitter:title" content="David Mirga | KI-Consultant für nachhaltige digitale Transformation">
+    <meta property="twitter:description" content="Experte für Künstliche Intelligenz, Prozessoptimierung und AI Act Compliance. Helfe Unternehmen, KI strategisch einzusetzen und bis zu 43% Arbeitszeit zurückzugewinnen.">
+    <meta property="twitter:image" content="https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8637/8637.png" type="image/png">
+    
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #2563EB;
+            --primary-dark: #1E40AF;
+            --secondary: #10B981;
+            --dark: #1F2937;
+            --light: #F9FAFB;
+            --gray: #6B7280;
+            --light-gray: #E5E7EB;
+            --danger: #EF4444;
+            --warning: #F59E0B;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--primary-dark);
+        }
+        
+        /* Layout */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .section {
+            padding: 5rem 0;
+            position: relative;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title p {
+            max-width: 600px;
+            margin: 0 auto;
+            color: var(--gray);
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #0DA271;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-lg {
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+        }
+        
+        /* Utilities */
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-primary {
+            color: var(--primary);
+        }
+        
+        .bg-primary {
+            background-color: var(--primary);
+        }
+        
+        .bg-light {
+            background-color: var(--light);
+        }
+        
+        .bg-dark {
+            background-color: var(--dark);
+        }
+        
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 0;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-item {
+            margin-left: 2rem;
+        }
+        
+        .nav-link {
+            color: var(--dark);
+            font-weight: 500;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: var(--primary);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .mobile-toggle {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 7rem 0 5rem;
+            background: linear-gradient(120deg, #2563EB, #7E22CE);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') center/cover no-repeat;
+            opacity: 0.1;
+            z-index: 1;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-text {
+            flex: 1;
+            max-width: 50%;
+        }
+        
+        .hero-img {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .hero-img img {
+            max-width: 80%;
+            border-radius: 1rem;
+            box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .hero-img img:hover {
+            transform: scale(1.05);
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .trust-badge {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 0.5rem;
+            display: inline-block;
+        }
+        
+        /* Problem Section */
+        .problems {
+            background-color: var(--light);
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .problem-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border-top: 4px solid transparent;
+        }
+        
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-top: 4px solid var(--primary);
+        }
+        
+        .problem-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .solution-statement {
+            margin-top: 3rem;
+            padding: 2rem;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            padding: 2rem;
+            border-radius: 1rem;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--primary);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .service-card h3 {
+            margin-top: 1rem;
+        }
+        
+        .micro-cta {
+            display: inline-block;
+            margin-top: auto;
+            padding-top: 1rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .micro-cta:hover {
+            color: var(--primary-dark);
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            background-color: var(--light);
+        }
+        
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 3rem;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            padding: 1rem;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            display: inline-block;
+            position: relative;
+        }
+        
+        .stat-number::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: var(--primary);
+            opacity: 0.3;
+        }
+        
+        .stat-label {
+            color: var(--gray);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .testimonial-card {
+            background-color: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .testimonial-text::before {
+            content: '\201C';
+            font-size: 4rem;
+            position: absolute;
+            top: -2rem;
+            left: -1rem;
+            color: var(--light-gray);
+            font-family: Georgia, serif;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 1rem;
+            object-fit: cover;
+        }
+        
+        .author-info h4 {
+            margin-bottom: 0.2rem;
+        }
+        
+        .author-info p {
+            color: var(--gray);
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+        
+        .case-study {
+            margin-top: 3rem;
+            padding: 2rem;
+            background-color: var(--dark);
+            color: white;
+            border-radius: 1rem;
+        }
+        
+        .case-study-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .case-study-img {
+            flex: 1;
+        }
+        
+        .case-study-img img {
+            max-width: 100%;
+            border-radius: 0.5rem;
+        }
+        
+        .case-study-text {
+            flex: 2;
+        }
+        
+        /* About Section */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .about-img {
+            flex: 1;
+        }
+        
+        .about-img img {
+            max-width: 100%;
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .expertise-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .badge {
+            background-color: var(--light-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .badge:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .book-preview {
+            margin-top: 2rem;
+            padding: 2rem;
+            background-color: var(--light);
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .book-cover {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .book-cover img {
+            max-width: 200px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .book-cover img:hover {
+            transform: scale(1.05);
+        }
+        
+        .book-info {
+            flex: 2;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            background-color: var(--light);
+        }
+        
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            background-color: white;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            padding: 1.5rem;
+            background-color: white;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question i {
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-answer.active {
+            padding: 0 1.5rem 1.5rem;
+            max-height: 1000px;
+        }
+        
+        /* Whitepaper Section */
+        .whitepaper {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            background-attachment: fixed;
+        }
+        
+        .whitepaper-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .whitepaper-text {
+            flex: 1;
+        }
+        
+        .whitepaper-form {
+            flex: 1;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            color: var(--dark);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid var(--light-gray);
+            border-radius: 0.5rem;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .form-text {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--gray);
+        }
+        
+        /* Contact Section */
+        .contact-content {
+            display: flex;
+            gap: 3rem;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .contact-form {
+            flex: 2;
+        }
+        
+        .contact-item {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+        }
+        
+        .alternative-cta {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: var(--light);
+            border-radius: 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .alternative-cta:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .alternative-cta:hover a {
+            color: white;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+        }
+        
+        .footer-logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-desc {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-list {
+            list-style: none;
+        }
+        
+        .footer-item {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-link {
+            color: rgba(255,255,255,0.7);
+            transition: all 0.3s ease;
+        }
+        
+        .footer-link:hover {
+            color: white;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9rem;
+        }
+        
+        /* Additional Conversion Elements */
+        .sticky-cta {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 100;
+        }
+        
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .trust-badge-item {
+            text-align: center;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .trust-badge-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .trust-badge-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .countdown-container {
+            background-color: var(--warning);
+            color: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .countdown-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(0,0,0,0.1) 10px,
+                rgba(0,0,0,0.1) 20px
+            );
+            animation: moveStripes 20s linear infinite;
+        }
+        
+        @keyframes moveStripes {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 50px 0;
+            }
+        }
+        
+        .countdown-timer {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+            position: relative;
+        }
+        
+        .chat-widget {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        
+        .chat-widget:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        
+        /* Animation Classes */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+        }
+        
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Glossary Styles */
+        .glossary-term {
+            cursor: help;
+            text-decoration: underline dotted;
+            position: relative;
+        }
+        
+        .glossary-term::after {
+            content: attr(data-definition);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            padding: 0.5rem;
+            background-color: var(--dark);
+            color: white;
+            border-radius: 0.3rem;
+            font-size: 0.8rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+        
+        .glossary-term:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero-content,
+            .about-content,
+            .whitepaper-content,
+            .contact-content,
+            .case-study-content {
+                flex-direction: column;
+            }
+            
+            .hero-text,
+            .hero-img,
+            .about-img,
+            .about-text,
+            .whitepaper-text,
+            .whitepaper-form,
+            .contact-info,
+            .contact-form,
+            .case-study-img,
+            .case-study-text {
+                max-width: 100%;
+                flex: none;
+            }
+            
+            .hero-img {
+                margin-top: 2rem;
+            }
+            
+            .nav-list {
+                display: none;
+            }
+            
+            .mobile-toggle {
+                display: block;
+            }
+            
+            .book-preview {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .hero {
+                padding: 6rem 0 3rem;
+            }
+            
+            .section {
+                padding: 3rem 0;
+            }
+            
+            .stats-container {
+                flex-direction: column;
+            }
+            
+            .hero-cta {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            
+            .book-preview {
+                padding: 1.5rem;
+            }
+            
+            .chat-widget {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "David Mirga KI-Consulting",
+      "description": "David Mirga hilft Unternehmen & Menschen, KI mit Klarheit & Sicherheit zu nutzen – und keine Angst mehr zu haben, von KI ersetzt zu werden.",
+      "url": "https://www.brandadwork.com/",
+      "logo": "https://cdn-icons-png.flaticon.com/512/8637/8637.png",
+      "image": "https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Walfischgasse 2",
+        "addressLocality": "Wien",
+        "postalCode": "1040",
+        "addressCountry": "AT"
+      },
+      "telephone": "+436765223669",
+      "email": "david.mirga@brandadwork.com",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "David Mirga",
+        "jobTitle": "KI-Consultant & Digital Business Transformation Manager",
+        "description": "Experte für Künstliche Intelligenz, Prozessoptimierung und digitale Transformation",
+        "image": "https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e",
+        "sameAs": [
+          "https://at.linkedin.com/in/david-mirga-847336134",
+          "https://www.facebook.com/mastinozehn/",
+          "https://www.instagram.com/david_mirga_/"
+        ]
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "KI-Beratungsdienstleistungen",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "KI-Potenzialanalyse & Strategieentwicklung",
+            "description": "In nur 3 Wochen identifizieren wir gemeinsam Ihre größten Effizienzpotentiale, erstellen eine maßgeschneiderte KI-Roadmap und definieren messbare Erfolgskriterien.",
+            "price": "1500.00",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Praxisnahe KI-Schulungen & Change Management",
+            "description": "Ihre Mitarbeiter werden nicht nur geschult, sondern begeistert. In interaktiven Workshops erfahren sie, wie KI ihren Arbeitsalltag verbessert.",
+            "price": "2500.00",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Begleitete Umsetzung & Optimierung",
+            "description": "Die nahtlose Integration in Ihre bestehenden Prozesse macht den Unterschied. Wir begleiten Sie Schritt für Schritt und optimieren kontinuierlich.",
+            "price": "3500.00",
+            "priceCurrency": "EUR"
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Thomas Weber"
+          },
+          "reviewBody": "Was früher Tage und Stunden dauerte, ist jetzt in Minuten und Sekunden fertig. Die KI-Implementierung mit David hat unsere Prozesse revolutioniert – und überraschenderweise die Zufriedenheit im Team gesteigert."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Christina Müller"
+          },
+          "reviewBody": "Anfangs war ich skeptisch, ob KI wirklich einen spürbaren Unterschied machen würde. Nach Davids strukturierter Einführung konnte unser Team innerhalb von nur sechs Wochen acht passende Mitarbeiter finden – und unsere Arbeitgebermarke nachhaltig stärken."
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Austria"
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Act Compliance Beratung",
+          "description": "Umfassende Beratung zur EU-Regulierung künstlicher Intelligenz und Implementierung konformer KI-Systeme"
+        }
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.brandadwork.com/#contact",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "name": "Kontakt aufnehmen"
+      }
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was genau ist Künstliche Intelligenz und wie unterscheidet sie sich von herkömmlicher Software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Künstliche Intelligenz (KI) unterscheidet sich von herkömmlicher Software durch ihre Fähigkeit zu lernen und sich anzupassen, ohne explizit programmiert zu werden. Während traditionelle Software festen Regeln folgt, kann KI aus Daten lernen, Muster erkennen und Entscheidungen treffen. Dies umfasst Technologien wie Machine Learning, Deep Learning, Natural Language Processing und Computer Vision. Im Geschäftskontext ermöglicht KI die Automatisierung komplexer Aufgaben, datengetriebene Entscheidungsfindung und personalisierte Kundenerlebnisse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie kann KI mein Unternehmen konkret unterstützen, ohne Mitarbeiter zu ersetzen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KI sollte als Ergänzung, nicht als Ersatz für menschliche Arbeit gesehen werden. Sie übernimmt repetitive, zeitaufwändige Aufgaben wie Dateneingabe, Dokumentenanalyse oder Standardanfragen, wodurch Ihre Mitarbeiter sich auf wertschöpfende, kreative und strategische Aufgaben konzentrieren können. In der Praxis bedeutet das beispielsweise, dass KI Erstanalysen von Kundendaten durchführt, während Ihre Vertriebsmitarbeiter diese Erkenntnisse nutzen, um individuellere Kundengespräche zu führen. Studien zeigen, dass Unternehmen, die KI als Unterstützungswerkzeug implementieren, nicht nur Effizienzsteigerungen, sondern auch höhere Mitarbeiterzufriedenheit verzeichnen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist der EU AI Act und welche Auswirkungen hat er auf mein Unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der EU AI Act ist die weltweit erste umfassende Regulierung für Künstliche Intelligenz. Er kategorisiert KI-Anwendungen in verschiedene Risikoklassen - von 'minimales Risiko' bis 'inakzeptables Risiko'. Je nach Einstufung gelten unterschiedliche Anforderungen an Transparenz, Datensicherheit und menschliche Aufsicht. Für Unternehmen bedeutet dies konkret: Sie müssen ihre KI-Systeme bewerten, dokumentieren und möglicherweise anpassen, um Compliance sicherzustellen. Besonders relevant ist dies für Bereiche wie Personalwesen, Kundendatenanalyse und automatisierte Entscheidungsprozesse. Nicht-Einhaltung kann zu erheblichen Strafen führen - bis zu 30 Millionen Euro oder 6% des weltweiten Jahresumsatzes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sieht der typische Prozess einer KI-Implementation in einem mittelständischen Unternehmen aus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Implementation verläuft typischerweise in fünf Phasen: 1) Bedarfsanalyse & Potentialidentifikation (2-3 Wochen): Wir analysieren Ihre Prozesse und identifizieren die vielversprechendsten Anwendungsbereiche. 2) Strategieentwicklung (1-2 Wochen): Gemeinsam erstellen wir einen konkreten Implementierungsplan mit klaren KPIs. 3) Pilotphase (4-6 Wochen): Wir implementieren die KI-Lösung in einem begrenzten Bereich und sammeln Feedback. 4) Schulung & Change Management (parallel): Ihre Mitarbeiter werden praxisnah geschult und bei der Umstellung begleitet. 5) Vollständige Implementation & Optimierung (fortlaufend): Die Lösung wird unternehmensweit ausgerollt und kontinuierlich verbessert. Der gesamte Prozess dauert je nach Komplexität zwischen 3-6 Monaten, wobei erste Ergebnisse bereits nach der Pilotphase sichtbar werden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Kosten kommen bei einer KI-Implementation auf mein Unternehmen zu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Kosten variieren je nach Umfang und Komplexität Ihres Projekts. Für mittelständische Unternehmen liegen die Investitionen typischerweise zwischen 10.000€ und 50.000€ für den gesamten Implementierungsprozess. Dies umfasst die Potenzialanalyse (ab 1.500€), Strategieentwicklung (2.500-5.000€), Schulungen (2.500-10.000€ je nach Mitarbeiterzahl) und die eigentliche Implementation (5.000-30.000€). Hinzu kommen laufende Kosten für Lizenzen und Support (100-500€ monatlich). Wichtig zu betonen: Der Return on Investment zeigt sich in der Regel innerhalb von 6-12 Monaten durch Effizienzsteigerungen, Kosteneinsparungen und neue Geschäftsmöglichkeiten. Unsere Kunden berichten durchschnittlich von 25-40% Zeitersparnis in optimierten Prozessen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schütze ich meine Daten bei der Nutzung von KI-Systemen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Datenschutz bei KI-Implementierungen basiert auf mehreren Säulen: 1) Datenminimierung: Wir arbeiten nach dem Prinzip, nur die wirklich notwendigen Daten zu verarbeiten. 2) Lokale Verarbeitung: Wann immer möglich, setzen wir auf On-Premise-Lösungen oder europäische Cloud-Anbieter mit DSGVO-Konformität. 3) Verschlüsselung: Alle Daten werden sowohl bei der Übertragung als auch im Ruhezustand verschlüsselt. 4) Zugriffskontrollen: Strenge Berechtigungskonzepte limitieren den Zugang zu sensiblen Daten. 5) Privacy by Design: Datenschutz wird von Anfang an in jede Lösung integriert. 6) Transparenz: Alle Datenflüsse werden dokumentiert und sind nachvollziehbar. Wir unterstützen Sie zudem bei der Erstellung notwendiger Datenschutz-Folgenabschätzungen (DSFA) gemäß DSGVO und stellen sicher, dass alle eingesetzten KI-Systeme den Anforderungen des EU AI Acts entsprechen."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "KI-Transformation in Unternehmen: Der menschenzentrierte Ansatz",
+      "author": {
+        "@type": "Person",
+        "name": "David Mirga"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Brandadwork Consulting GmbH",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cdn-icons-png.flaticon.com/512/8637/8637.png"
+        }
+      },
+      "datePublished": "2024-06-01",
+      "dateModified": "2024-06-15",
+      "image": "https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.brandadwork.com"
+      },
+      "description": "Erfahren Sie, wie Unternehmen Künstliche Intelligenz implementieren können, ohne Mitarbeiter zu ersetzen, sondern deren Potenzial zu steigern."
+    }
+    </script>
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.brandadwork.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "KI-Lösungen",
+          "item": "https://www.brandadwork.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Über mich",
+          "item": "https://www.brandadwork.com/#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kontakt",
+          "item": "https://www.brandadwork.com/#contact"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="David Mirga Logo">David Mirga</a>
+            <nav class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#services" class="nav-link">KI-Lösungen</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Über mich</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Erfolgsgeschichten</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#whitepaper" class="nav-link">AI Act</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+                <div class="mobile-toggle" aria-label="Menü öffnen">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h1>KI-Transformation, die Ihre Mitarbeiter stärker macht – nicht ersetzt</h1>
+                <p>Mit individueller Beratung und praxisnaher Schulung Ihre Prozesse revolutionieren und bis zu <span class="text-white font-bold">43% Arbeitszeit</span> zurückgewinnen</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-secondary btn-lg" aria-label="Gratis KI-Potenzialanalyse starten">Gratis KI-Potenzialanalyse starten</a>
+                    <a href="#testimonials" class="btn btn-outline btn-lg" aria-label="Erfolgsgeschichten ansehen">Erfolgsgeschichten ansehen</a>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-check-circle"></i> Bereits 47+ Unternehmen erfolgreich in die <span class="glossary-term" data-definition="Künstliche Intelligenz im Unternehmenskontext: Algorithmen und Systeme, die menschenähnliche kognitive Funktionen ausführen">KI-Zukunft</span> begleitet
+                </div>
+            </div>
+            <div class="hero-img fade-in">
+                <img src="https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e" alt="David Mirga - KI-Consultant und Digital Business Transformation Manager" width="400" height="500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problems section" id="problems">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Die Herausforderung ist nicht, KI einzusetzen – sondern sie richtig einzusetzen.</h2>
+                <p>Viele Unternehmen stehen vor denselben Herausforderungen, wenn es um den Einsatz von <span class="glossary-term" data-definition="Künstliche Intelligenz umfasst Machine Learning, Natural Language Processing, Computer Vision und weitere Technologien">Künstlicher Intelligenz</span> geht.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card fade-in">
+                    <div class="problem-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Orientierungslos im KI-Dschungel?</h3>
+                    <p>Unzählige Tools, komplexe Technologien wie <span class="glossary-term" data-definition="Methode, bei der Algorithmen aus Daten lernen und Vorhersagen treffen, ohne explizit programmiert zu werden">Machine Learning</span>, <span class="glossary-term" data-definition="KI-Systeme, die menschliche Sprache verstehen, interpretieren und generieren können">Natural Language Processing</span> und der ständige Druck, nichts zu verpassen – während Ihre Konkurrenz möglicherweise schon Vorsprung gewinnt.</p>
+                </div>
+                <div class="problem-card fade-in">
+                    <div class="problem-icon">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <h3>Mitarbeiter skeptisch oder überfordert?</h3>
+                    <p>Neue Technologien wie <span class="glossary-term" data-definition="Erweiterte KI-Modelle, die menschenähnliche Texte generieren können">ChatGPT</span>, <span class="glossary-term" data-definition="Microsoft-basiertes KI-System für Inhaltsgeneration und Suchunterstützung">Copilot</span> und <span class="glossary-term" data-definition="KI-Tools zur automatisierten Bildgenerierung basierend auf Textbeschreibungen">Midjourney</span> stoßen oft auf Widerstand. Ohne richtige Einführung und Training bleibt selbst die beste KI ungenutzt – und Ihre Investition wirkungslos.</p>
+                </div>
+                <div class="problem-card fade-in">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Rechtliche Unsicherheiten mit dem AI Act?</h3>
+                    <p>Die neue <span class="glossary-term" data-definition="EU-Verordnung zur Regulierung von KI-Systemen basierend auf Risikoklassen">EU-Verordnung für Künstliche Intelligenz</span> schafft unklare Risikobereiche. Die 4 Risikoklassen und zahlreichen Compliance-Anforderungen können überwältigend sein. Ein falscher Schritt kann teuer werden – sowohl finanziell als auch für Ihre Reputation.</p>
+                </div>
+            </div>
+            <div class="solution-statement fade-in">
+                Die Lösung ist kein Geheimnis – sondern eine Strategie.
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Der 3-Stufen Prozess für Ihre erfolgreiche KI-Transformation</h2>
+                <p>Mein bewährter Ansatz führt Sie und Ihr Team sicher durch die digitale Transformation – mit messbaren Ergebnissen.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <span>1️⃣</span>
+                    <h3>Klarheit schaffen</h3>
+                    <h4>KI-Potenzialanalyse & Strategieentwicklung</h4>
+                    <p>In nur 3 Wochen identifizieren wir gemeinsam Ihre größten Effizienzpotentiale durch <span class="glossary-term" data-definition="Automatisierung wiederkehrender Aufgaben mithilfe von KI">Process Mining</span>, erstellen eine maßgeschneiderte KI-Roadmap und definieren messbare Erfolgskriterien – ohne technischen Fachjargon.</p>
+                    <a href="#contact" class="micro-cta" aria-label="Potentialanalyse kennenlernen">Potentialanalyse kennenlernen →</a>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <span>2️⃣</span>
+                    <h3>Menschen befähigen</h3>
+                    <h4>Praxisnahe KI-Schulungen & Change Management</h4>
+                    <p>Ihre Mitarbeiter werden nicht nur in <span class="glossary-term" data-definition="Konversationsbasierte KI-Systeme wie ChatGPT, Claude oder Gemini">Generative AI</span> und <span class="glossary-term" data-definition="Automatisierung von Workflows durch KI-gestützte Prozesse">Workflow Automation</span> geschult, sondern begeistert. In interaktiven Workshops erfahren sie, wie KI ihren Arbeitsalltag verbessert – und verstehen, dass es um Unterstützung geht, nicht um Ersatz.</p>
+                    <a href="#contact" class="micro-cta" aria-label="Schulungskonzept entdecken">Schulungskonzept entdecken →</a>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <span>3️⃣</span>
+                    <h3>Nachhaltig implementieren</h3>
+                    <h4>Begleitete Umsetzung & Optimierung</h4>
+                    <p>Die nahtlose Integration von <span class="glossary-term" data-definition="Intelligente Automatisierung von Geschäftsprozessen">RPA</span> und <span class="glossary-term" data-definition="KI-gestützte Datenanalyse für Geschäftsentscheidungen">Predictive Analytics</span> in Ihre bestehenden Prozesse macht den Unterschied. Wir begleiten Sie Schritt für Schritt und optimieren kontinuierlich – bis KI fester, messbarer Bestandteil Ihres Erfolgs ist.</p>
+                    <a href="#contact" class="micro-cta" aria-label="Implementierungsansatz sehen">Implementierungsansatz sehen →</a>
+                </div>
+            </div>
+            <div class="trust-badges">
+                <div class="trust-badge-item fade-in">
+                    <div class="trust-badge-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>EU AI Act Compliant</h4>
+                    <p>Alle Lösungen entsprechen den neuen EU-Regularien</p>
+                </div>
+                <div class="trust-badge-item fade-in">
+                    <div class="trust-badge-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h4>DSGVO-konform</h4>
+                    <p>Höchste Datenschutzstandards garantiert</p>
+                </div>
+                <div class="trust-badge-item fade-in">
+                    <div class="trust-badge-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4>Zertifizierter Experte</h4>
+                    <p>Regelmäßige Weiterbildung in KI-Technologien</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Transformation, die sich auszahlt – messbar und nachhaltig</h2>
+                <p>Diese Unternehmen haben den Schritt bereits gewagt und profitieren täglich von optimierten Prozessen und zufriedeneren Mitarbeitern.</p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-item fade-in">
+                    <div class="stat-number">37%</div>
+                    <div class="stat-label">weniger administrative Aufwände</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">48%</div>
+                    <div class="stat-label">schnellere Entscheidungsprozesse</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">2,4h</div>
+                    <div class="stat-label">tägliche Zeitersparnis pro Mitarbeiter</div>
+                </div>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-text">
+                        Was früher Tage und Stunden dauerte, ist jetzt in Minuten und Sekunden fertig. Die KI-Implementierung mit David hat unsere Prozesse revolutioniert – und überraschenderweise die Zufriedenheit im Team gesteigert.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80" alt="Thomas Weber" class="author-img">
+                        <div class="author-info">
+                            <h4>Thomas Weber</h4>
+                            <p>Geschäftsführer, Autohaus Weeber Gruppe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-text">
+                        Anfangs war ich skeptisch, ob KI wirklich einen spürbaren Unterschied machen würde. Nach Davids strukturierter Einführung konnte unser Team innerhalb von nur sechs Wochen acht passende Mitarbeiter finden – und unsere Arbeitgebermarke nachhaltig stärken.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80" alt="Christina Müller" class="author-img">
+                        <div class="author-info">
+                            <h4>Christina Müller</h4>
+                            <p>HR-Leiterin, Technomed Austria GmbH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case-study fade-in">
+                <h3>Fallstudie: Autohaus Weeber Gruppe</h3>
+                <div class="case-study-content">
+                    <div class="case-study-img">
+                        <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Autohaus Weeber Gruppe Firmengebäude">
+                    </div>
+                    <div class="case-study-text">
+                        <p>Die Autohaus Weeber Gruppe stand vor der Herausforderung, im regionalen Wettbewerb Mitarbeiter an die Industrie zu verlieren und mit unzureichenden Rekrutierungsmethoden zu kämpfen.</p>
+                        <p>Durch unsere <strong>KI-gestützte Recruiting-Strategie</strong> und die Integration von <strong>Natural Language Processing</strong> in den Bewerbungsprozess gelang es innerhalb von nur 1,5 Monaten, drei Serviceberater einzustellen und sämtliche Kfz-Mechatroniker Stellen zu besetzen.</p>
+                        <p>Diese Umstrukturierung belebte das Team, verbesserte die Flexibilität im Bewerbungsverfahren und steigerte die Effizienz der Personalabteilung um 42%.</p>
+                        <a href="#contact" class="btn btn-primary" aria-label="Ähnliche Ergebnisse für Ihr Unternehmen">Ähnliche Ergebnisse für Ihr Unternehmen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Über mich</h2>
+                <p>Leidenschaft für KI, die Menschen und Unternehmen weiterbringt</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img fade-in">
+                    <img src="https://gensparkpublicblob.blob.core.windows.net/user-upload-image/v1/base64_upload/00390eac733ebd9823bbe425f118e87e" alt="David Mirga Portrait" width="400" height="500">
+                </div>
+                <div class="about-text fade-in">
+                    <h3>David Mirga – KI-Consultant & Digital Business Transformation Manager</h3>
+                    <p>Als Experte für <strong>Künstliche Intelligenz</strong>, <strong>Prozessoptimierung</strong> und <strong>digitale Transformation</strong> helfe ich Unternehmen dabei, KI nicht nur zu verstehen, sondern gewinnbringend einzusetzen – mit messbaren Ergebnissen und ohne Buzzword-Bingo.</p>
+                    <p>Mein Weg führte mich von Social-Media-Marketing über Performance-Strategien bis hin zur KI-Spezialisierung. Als Autor des Fachbuchs "<strong>Digitales Recruiting kinderleicht</strong>" und durch kontinuierliche Weiterbildung bei führenden Coaches wie Carsten Beyreuther und Max Weiss bleibe ich stets an der Spitze der Entwicklung.</p>
+                    <p>Was mich von anderen unterscheidet? Ich verkaufe keine Produkte, sondern entwickle maßgeschneiderte Lösungen – neutral, unabhängig und mit dem Fokus auf messbaren Erfolg.</p>
+                    <div class="expertise-badges">
+                        <span class="badge">KI-Strategie & Implementation</span>
+                        <span class="badge">Prozessoptimierung</span>
+                        <span class="badge">Change Management</span>
+                        <span class="badge">Digital Business Transformation</span>
+                        <span class="badge">AI Act Compliance</span>
+                        <span class="badge">Mitarbeitergewinnung</span>
+                    </div>
+                </div>
+            </div>
+            <div class="book-preview fade-in">
+                <div class="book-cover">
+                    <img src="https://m.media-amazon.com/images/I/71DiFcvZdRL._SL1500_.jpg" alt="Buchcover: Digitales Recruiting kinderleicht" width="200" height="300">
+                </div>
+                <div class="book-info">
+                    <h3>Digitales Recruiting kinderleicht: Praxislösungen für die moderne Personalgewinnung</h3>
+                    <p>Mein Fachbuch zeigt, wie Unternehmen den Recruitingprozess mit KI-Unterstützung revolutionieren können. Über 127 Seiten praxisnahe Anleitungen und Strategien, die auch ohne technisches Vorwissen umsetzbar sind.</p>
+                    <p>Sie lernen, wie moderne <strong>KI-Technologien</strong> wie <strong>Natural Language Processing</strong> und <strong>Machine Learning</strong> den Rekrutierungsprozess optimieren können – von der Kandidatensuche bis zum Onboarding.</p>
+                    <a href="https://www.amazon.com/Digitales-Recruiting-kinderleicht-Praxisl%C3%B6sungen-Personalgewinnung-ebook/dp/B0DHYFVJPY" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Buch auf Amazon entdecken">Buch entdecken</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Häufig gestellte Fragen zu KI-Implementation</h2>
+                <p>Antworten auf die wichtigsten Fragen zur Künstlichen Intelligenz im Unternehmenskontext</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Was genau ist Künstliche Intelligenz und wie unterscheidet sie sich von herkömmlicher Software?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Künstliche Intelligenz (KI) unterscheidet sich von herkömmlicher Software durch ihre Fähigkeit zu lernen und sich anzupassen, ohne explizit programmiert zu werden. Während traditionelle Software festen Regeln folgt, kann KI aus Daten lernen, Muster erkennen und Entscheidungen treffen.</p>
+                        <p>Dies umfasst Technologien wie <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong> und <strong>Computer Vision</strong>. Im Geschäftskontext ermöglicht KI die Automatisierung komplexer Aufgaben, datengetriebene Entscheidungsfindung und personalisierte Kundenerlebnisse.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Wie kann KI mein Unternehmen konkret unterstützen, ohne Mitarbeiter zu ersetzen?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>KI sollte als Ergänzung, nicht als Ersatz für menschliche Arbeit gesehen werden. Sie übernimmt repetitive, zeitaufwändige Aufgaben wie Dateneingabe, Dokumentenanalyse oder Standardanfragen, wodurch Ihre Mitarbeiter sich auf wertschöpfende, kreative und strategische Aufgaben konzentrieren können.</p>
+                        <p>In der Praxis bedeutet das beispielsweise, dass KI Erstanalysen von Kundendaten durchführt, während Ihre Vertriebsmitarbeiter diese Erkenntnisse nutzen, um individuellere Kundengespräche zu führen. Studien zeigen, dass Unternehmen, die KI als Unterstützungswerkzeug implementieren, nicht nur Effizienzsteigerungen, sondern auch höhere Mitarbeiterzufriedenheit verzeichnen.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Was ist der EU AI Act und welche Auswirkungen hat er auf mein Unternehmen?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Der EU AI Act ist die weltweit erste umfassende Regulierung für Künstliche Intelligenz. Er kategorisiert KI-Anwendungen in verschiedene Risikoklassen - von 'minimales Risiko' bis 'inakzeptables Risiko'. Je nach Einstufung gelten unterschiedliche Anforderungen an Transparenz, Datensicherheit und menschliche Aufsicht.</p>
+                        <p>Für Unternehmen bedeutet dies konkret: Sie müssen ihre KI-Systeme bewerten, dokumentieren und möglicherweise anpassen, um Compliance sicherzustellen. Besonders relevant ist dies für Bereiche wie Personalwesen, Kundendatenanalyse und automatisierte Entscheidungsprozesse. Nicht-Einhaltung kann zu erheblichen Strafen führen - bis zu 30 Millionen Euro oder 6% des weltweiten Jahresumsatzes.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Wie sieht der typische Prozess einer KI-Implementation in einem mittelständischen Unternehmen aus?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Die Implementation verläuft typischerweise in fünf Phasen:</p>
+                        <ol>
+                            <li><strong>Bedarfsanalyse & Potentialidentifikation (2-3 Wochen):</strong> Wir analysieren Ihre Prozesse und identifizieren die vielversprechendsten Anwendungsbereiche.</li>
+                            <li><strong>Strategieentwicklung (1-2 Wochen):</strong> Gemeinsam erstellen wir einen konkreten Implementierungsplan mit klaren KPIs.</li>
+                            <li><strong>Pilotphase (4-6 Wochen):</strong> Wir implementieren die KI-Lösung in einem begrenzten Bereich und sammeln Feedback.</li>
+                            <li><strong>Schulung & Change Management (parallel):</strong> Ihre Mitarbeiter werden praxisnah geschult und bei der Umstellung begleitet.</li>
+                            <li><strong>Vollständige Implementation & Optimierung (fortlaufend):</strong> Die Lösung wird unternehmensweit ausgerollt und kontinuierlich verbessert.</li>
+                        </ol>
+                        <p>Der gesamte Prozess dauert je nach Komplexität zwischen 3-6 Monaten, wobei erste Ergebnisse bereits nach der Pilotphase sichtbar werden.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Welche Kosten kommen bei einer KI-Implementation auf mein Unternehmen zu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Die Kosten variieren je nach Umfang und Komplexität Ihres Projekts. Für mittelständische Unternehmen liegen die Investitionen typischerweise zwischen 10.000€ und 50.000€ für den gesamten Implementierungsprozess.</p>
+                        <p>Dies umfasst die Potenzialanalyse (ab 1.500€), Strategieentwicklung (2.500-5.000€), Schulungen (2.500-10.000€ je nach Mitarbeiterzahl) und die eigentliche Implementation (5.000-30.000€). Hinzu kommen laufende Kosten für Lizenzen und Support (100-500€ monatlich).</p>
+                        <p>Wichtig zu betonen: Der Return on Investment zeigt sich in der Regel innerhalb von 6-12 Monaten durch Effizienzsteigerungen, Kosteneinsparungen und neue Geschäftsmöglichkeiten. Unsere Kunden berichten durchschnittlich von 25-40% Zeitersparnis in optimierten Prozessen.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Wie schütze ich meine Daten bei der Nutzung von KI-Systemen?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Datenschutz bei KI-Implementierungen basiert auf mehreren Säulen:</p>
+                        <ol>
+                            <li><strong>Datenminimierung:</strong> Wir arbeiten nach dem Prinzip, nur die wirklich notwendigen Daten zu verarbeiten.</li>
+                            <li><strong>Lokale Verarbeitung:</strong> Wann immer möglich, setzen wir auf On-Premise-Lösungen oder europäische Cloud-Anbieter mit DSGVO-Konformität.</li>
+                            <li><strong>Verschlüsselung:</strong> Alle Daten werden sowohl bei der Übertragung als auch im Ruhezustand verschlüsselt.</li>
+                            <li><strong>Zugriffskontrollen:</strong> Strenge Berechtigungskonzepte limitieren den Zugang zu sensiblen Daten.</li>
+                            <li><strong>Privacy by Design:</strong> Datenschutz wird von Anfang an in jede Lösung integriert.</li>
+                            <li><strong>Transparenz:</strong> Alle Datenflüsse werden dokumentiert und sind nachvollziehbar.</li>
+                        </ol>
+                        <p>Wir unterstützen Sie zudem bei der Erstellung notwendiger Datenschutz-Folgenabschätzungen (DSFA) gemäß DSGVO und stellen sicher, dass alle eingesetzten KI-Systeme den Anforderungen des EU AI Acts entsprechen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whitepaper Section -->
+    <section class="whitepaper section" id="whitepaper">
+        <div class="container">
+            <div class="whitepaper-content">
+                <div class="whitepaper-text fade-in">
+                    <h2>Der EU AI Act kommt – Sind Sie vorbereitet?</h2>
+                    <p>Die neue EU-Verordnung bringt Pflichten für alle Unternehmen, die KI einsetzen. Unwissenheit schützt nicht vor Strafe – aber Vorbereitung vor teuren Fehlern.</p>
+                    <h3>Gratis Whitepaper: Die 4 Risikoklassen des AI Acts</h3>
+                    <ul>
+                        <li>Was „hohes Risiko" wirklich bedeutet – mit konkreten Beispielen</li>
+                        <li>Welche KI-Anwendungen verboten oder stark reguliert sind</li>
+                        <li>Praktische Checkliste für Ihre Compliance</li>
+                        <li>Implementierungszeitplan für EU-Unternehmen</li>
+                    </ul>
+                </div>
+                <div class="whitepaper-form fade-in">
+                    <h3>Kostenloses Whitepaper anfordern</h3>
+                    <form id="whitepaper-form" action="#" method="POST" data-netlify="true">
+                        <div class="form-group">
+                            <label for="wp-name" class="form-label">Name*</label>
+                            <input type="text" id="wp-name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="wp-email" class="form-label">E-Mail Adresse*</label>
+                            <input type="email" id="wp-email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="wp-company" class="form-label">Unternehmen</label>
+                            <input type="text" id="wp-company" name="company" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="wp-position" class="form-label">Position</label>
+                            <input type="text" id="wp-position" name="position" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="wp-privacy" name="privacy" required>
+                            <label for="wp-privacy">Ich stimme der <a href="#" target="_blank">Datenschutzerklärung</a> zu*</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Kostenloses Whitepaper herunterladen</button>
+                        <p class="form-text">Keine Sorge, wir senden keinen Spam und teilen Ihre Daten nicht mit Dritten.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Der erste Schritt zu Ihrer erfolgreichen KI-Transformation</h2>
+                <p>Kontaktieren Sie mich für ein unverbindliches Erstgespräch</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Kontaktinformationen</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <strong>Brandadwork Consulting GmbH</strong><br>
+                            Walfischgasse 2<br>
+                            1040 Wien, Österreich<br>
+                            <small>Direkt neben dem Sacher Hotel und der Oper</small>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <a href="mailto:david.mirga@brandadwork.com">david.mirga@brandadwork.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <a href="tel:+436765223669">+43 676 522 36 69</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <a href="https://at.linkedin.com/in/david-mirga-847336134" target="_blank" rel="noopener noreferrer">LinkedIn-Profil</a>
+                        </div>
+                    </div>
+                    <div class="alternative-cta">
+                        <h4>Lieber direkt sprechen?</h4>
+                        <p>Buchen Sie einen 15-minütigen Kennenlerncall</p>
+                        <a href="#" class="btn btn-primary">Termin wählen</a>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <h3>Nachricht senden</h3>
+                    <form id="contact-form" action="#" method="POST" data-netlify="true">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name*</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-Mail*</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefon</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="company" class="form-label">Unternehmen</label>
+                            <input type="text" id="company" name="company" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Nachricht*</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">Ich stimme der <a href="#" target="_blank">Datenschutzerklärung</a> zu*</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Unverbindliches Gespräch vereinbaren</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <div class="container">
+        <div class="countdown-container fade-in">
+            <h3>Begrenzte Aktion: KI-Potenzialanalyse kostenfrei</h3>
+            <p>Nur für die nächsten Unternehmen, die Kontakt aufnehmen</p>
+            <div class="countdown-timer" id="countdown">7 Tage : 12 Stunden : 34 Minuten</div>
+            <a href="#contact" class="btn btn-secondary">Jetzt Chance sichern</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">David Mirga</div>
+                    <p class="footer-desc">Ich helfe Unternehmen & Menschen, KI mit Klarheit & Sicherheit zu nutzen – und keine Angst mehr zu haben, von KI ersetzt zu werden.</p>
+                    <div class="social-links">
+                        <a href="https://at.linkedin.com/in/david-mirga-847336134" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/mastinozehn/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/david_mirga_/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#" class="footer-link">Home</a></li>
+                        <li class="footer-item"><a href="#services" class="footer-link">KI-Lösungen</a></li>
+                        <li class="footer-item"><a href="#about" class="footer-link">Über mich</a></li>
+                        <li class="footer-item"><a href="#testimonials" class="footer-link">Erfolgsgeschichten</a></li>
+                        <li class="footer-item"><a href="#contact" class="footer-link">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Rechtliches</h4>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#" class="footer-link">Impressum</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Datenschutz</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">AGB</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Cookie-Einstellungen</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Kontakt</h4>
+                    <ul class="footer-list">
+                        <li class="footer-item">Brandadwork Consulting GmbH</li>
+                        <li class="footer-item">Walfischgasse 2, 1040 Wien</li>
+                        <li class="footer-item"><a href="mailto:david.mirga@brandadwork.com" class="footer-link">david.mirga@brandadwork.com</a></li>
+                        <li class="footer-item"><a href="tel:+436765223669" class="footer-link">+43 676 522 36 69</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2024 Brandadwork Consulting GmbH. Alle Rechte vorbehalten.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget" id="chat-widget" aria-label="Chat öffnen">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Main JavaScript -->
+    <script>
+        // Scroll Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fade In Animation
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        fadeInObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            fadeElements.forEach(element => {
+                fadeInObserver.observe(element);
+            });
+            
+            // Smooth Scrolling for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // FAQ Accordions
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    const isActive = question.classList.contains('active');
+                    
+                    // Close all other FAQ items
+                    faqQuestions.forEach(q => {
+                        q.classList.remove('active');
+                        q.nextElementSibling.classList.remove('active');
+                    });
+                    
+                    // Toggle current FAQ item
+                    if (!isActive) {
+                        question.classList.add('active');
+                        answer.classList.add('active');
+                    }
+                });
+            });
+            
+            // Sticky Header
+            const header = document.getElementById('header');
+            const scrollThreshold = 100;
+            
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > scrollThreshold) {
+                    header.style.padding = '0.5rem 0';
+                    header.style.boxShadow = '0 5px 15px rgba(0,0,0,0.1)';
+                } else {
+                    header.style.padding = '1rem 0';
+                    header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+                }
+            });
+            
+            // Mobile Menu Toggle
+            const mobileToggle = document.querySelector('.mobile-toggle');
+            const navList = document.querySelector('.nav-list');
+            
+            if (mobileToggle && navList) {
+                mobileToggle.addEventListener('click', () => {
+                    navList.style.display = navList.style.display === 'flex' ? 'none' : 'flex';
+                });
+            }
+            
+            // Chat Widget
+            const chatWidget = document.getElementById('chat-widget');
+            
+            if (chatWidget) {
+                chatWidget.addEventListener('click', () => {
+                    alert('Livechat wird gestartet... Wie kann ich Ihnen helfen?');
+                });
+            }
+            
+            // Countdown Timer (simulated)
+            const countdownElement = document.getElementById('countdown');
+            if (countdownElement) {
+                // Set the countdown date (7 days from now)
+                const countdownDate = new Date();
+                countdownDate.setDate(countdownDate.getDate() + 7);
+                
+                // Update countdown every second
+                const countdownInterval = setInterval(() => {
+                    const now = new Date().getTime();
+                    const distance = countdownDate.getTime() - now;
+                    
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                    countdownElement.innerHTML = `${days} Tage : ${hours} Stunden : ${minutes} Minuten : ${seconds} Sekunden`;
+                    
+                    if (distance < 0) {
+                        clearInterval(countdownInterval);
+                        countdownElement.innerHTML = "Angebot abgelaufen";
+                    }
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>
